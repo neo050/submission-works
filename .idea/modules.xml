@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/ plants/ plants.iml" filepath="$PROJECT_DIR$/assignment-1/ plants/ plants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/animals/animals.iml" filepath="$PROJECT_DIR$/assignment-1/animals/animals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/assignment-1.iml" filepath="$PROJECT_DIR$/assignment-1/assignment-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment1/assignment1.iml" filepath="$PROJECT_DIR$/assignment1/assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment2/assignment2.iml" filepath="$PROJECT_DIR$/assignment2/assignment2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/diet/diet.iml" filepath="$PROJECT_DIR$/assignment-1/diet/diet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/food/food.iml" filepath="$PROJECT_DIR$/assignment-1/food/food.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/mobility/mobility.iml" filepath="$PROJECT_DIR$/assignment-1/mobility/mobility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/privateutil/privateutil.iml" filepath="$PROJECT_DIR$/assignment-1/privateutil/privateutil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/submission-works.iml" filepath="$PROJECT_DIR$/.idea/submission-works.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/untitled/untitled.iml" filepath="$PROJECT_DIR$/assignment-1/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/utilities/utilities.iml" filepath="$PROJECT_DIR$/assignment-1/utilities/utilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-1/zoo/zoo.iml" filepath="$PROJECT_DIR$/assignment-1/zoo/zoo.iml" />
+    </modules>
+  </component>
+</project>
