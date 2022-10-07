@@ -42,7 +42,6 @@ public abstract class Animal extends Mobile implements IEdible, IAnimalBehavior
         MessageUtility.logConstractor("Animal",name);
         this.name =name;
         //setLegalColor(col);
-        this.col="n";
         this.size=50;
         this.pan=pan;
     }
@@ -54,7 +53,7 @@ public abstract class Animal extends Mobile implements IEdible, IAnimalBehavior
         x_dir=1;
         this.name =name;
         setLegalColor(col);
-        this.col=col;
+        loadImages(name+"_"+this.col+"_1");
         this.size=size;
         this.horSpeed=horSpeed;
         this.verSpeed=verSpeed;
@@ -185,16 +184,17 @@ public abstract class Animal extends Mobile implements IEdible, IAnimalBehavior
             g.drawImage(img2,getLocation().getX(), getLocation().getY(), size, size, pan);
         setChanges(false);
     }
-    public boolean setLegalColor(String newFurColor)
+    public boolean setLegalColor(String col)
     {
         for(String string:LegalColors) {
-            if (string.equals(newFurColor)) {
-                loadImages(name+"_"+newFurColor+"_1");
-                MessageUtility.logSetter(getName(),"setLegalColor",newFurColor,true);
+            if (string.equals(col)) {
+                this.col=col;
+                loadImages(name+"_"+col+"_1");
+                MessageUtility.logSetter(getName(),"setLegalColor",col,true);
                 return true;
             }
         }
-        loadImages(name+"_"+"n"+"_1");
+        this.col="n";
         MessageUtility.logSetter(getName(),"setLegalColor","n",false);
         return  false;
     }
